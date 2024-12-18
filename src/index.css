@@ -1,0 +1,84 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+ .firstpart{
+  background-image: url('./images/Blue Corporate Tour & Travel Desktop Prototype.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  width: 100%; /* Full width for responsiveness */
+
+  overflow: hidden;
+}
+
+.list{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 15px;
+}
+.box1 {
+  background-image: url('./images/Untitled design.jpg');
+  background-size: cover;
+  background-position: left;
+  background-attachment: fixed;
+  width: 100%;
+  max-width: 350px; /* Responsive max-width */
+  padding: 20px;
+  border-radius: 30px;
+}
+
+
+.box2 {
+  background-image: url('./images/Untitled design (3).jpg');
+  background-size: cover;
+  background-position: left;
+  background-attachment: fixed;
+  width: 100%;
+  max-width: 350px; /* Responsive max-width */
+  padding: 20px; 
+  border-radius: 30px; 
+
+}
+.box3 {
+  background-image: url('./images/Untitled design (2).jpg');
+  background-size: cover;
+  background-position: left;
+  background-attachment: fixed;
+  width: 100%;
+  max-width: 350px; /* Responsive max-width */
+  padding: 20px; 
+  border-radius: 30px; 
+}
+
+.header {
+  position:fixed; 
+  
+}
+.secondpart{
+  flex-direction: column;
+}
+.motion-box{
+  background-image: url('./images/otis-redding (1).png');
+  background: rgba(15, 37, 46, 0.986); /* Black with 50% opacity */
+  margin-right: 250px;
+  margin-top: 50px;
+
+}
+.logo{
+  margin-left: 484px;
+  margin-top: 150px;
+  max-width: 450px;
+  margin-bottom: 3px;
+}
+
+.ccc{
+  box-shadow: 5px 0px 35px 30px rgba(0, 0, 0, 0.26);
+}
+
+
+
+
